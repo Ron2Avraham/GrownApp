@@ -1,19 +1,15 @@
 import React from "react";
-import * as pages from "../pages";
-import ScrollToTop from "../components/shared/scrollToTop/scrollToTop";
+import home from "../pages/home";
 import { HashRouter, Route, Switch } from "react-router-dom";
-import Header from "components/shared/header/header";
 
 const Routes = () => {
 
   return (
     <HashRouter>
-      <Header />
-      <ScrollToTop>
+      {/* <Header /> */}
         <Switch>
-          <Route exact path="/" component={pages.HomePage}></Route>
+          <Route exact path="/" component={home}></Route>
         </Switch>
-      </ScrollToTop>
     </HashRouter>
   );
 };
