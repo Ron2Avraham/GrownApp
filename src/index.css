@@ -1,0 +1,61 @@
+
+@font-face {
+  font-family: "HeeboBlack";
+  src: local("HeeboBlack"), url("./assets/fonts/Heebo/Heebo-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboBold";
+  src: local("HeeboBold"), url("./assets/fonts/Heebo/Heebo-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboExtraBold";
+  src: local("HeeboExtraBold"), url("./assets/fonts/Heebo/Heebo-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboExtraLight";
+  src: local("HeeboExtraLight"), url("./assets/fonts/Heebo/Heebo-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboLight";
+  src: local("HeeboLight"), url("./assets/fonts/Heebo/Heebo-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboMedium";
+  src: local("HeeboMedium"), url("./assets/fonts/Heebo/Heebo-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboRegular";
+  src: local("HeeboRegular"), url("./assets/fonts/Heebo/Heebo-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboSemiBold";
+  src: local("HeeboSemiBold"), url("./assets/fonts/Heebo/Heebo-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "HeeboThin";
+  src: local("HeeboThin"), url("./assets/fonts/Heebo/Heebo-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RubikRegular";
+  src: local("RubikRegular"), url("./assets/fonts/Rubik/Rubik-Regular.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'HeeboRegular';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'HeeboRegular';
+}
