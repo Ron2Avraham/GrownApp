@@ -4,11 +4,11 @@ export const GUIDES_DATA: IGuide[] = [
   {
     name: "Whatsapp",
     icon: "",
-    guidePics: ["",""]
+    guidePic: "phoneToContact.png",
   },
   {
     name: "Whatsapp",
     icon: "",
-    guidePics: ["",""]
+    guidePic: "",
   }
 ];

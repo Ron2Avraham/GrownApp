@@ -1,9 +1,9 @@
-// import React from "react";
-// import { AuthenticationParameters } from "msal";
-// // import { msalApp, requiresInteraction, GRAPH_REQUESTS, fetchMsGraph, GRAPH_ENDPOINTS } from "./msal/auth-utils";
-// // import AxiosInstance from "services/utils/AxiosInstance";
+import React from "react";
+import { AuthenticationParameters } from "msal";
+// import { msalApp, requiresInteraction, GRAPH_REQUESTS, fetchMsGraph, GRAPH_ENDPOINTS } from "./msal/auth-utils";
+// import AxiosInstance from "services/utils/AxiosInstance";
 
-// let graphProfile = null;
+let graphProfile = null;
 
 // const acquireToken = async (request: AuthenticationParameters, redirect = true) => {
 //   return msalApp.acquireTokenSilent(request).catch(async (error: any) => {
@@ -48,7 +48,7 @@
 //   });
 // };
 
-// export const runApp = async (app: JSX.Element): Promise<JSX.Element> => {
+export const runApp = async (app: JSX.Element): Promise<JSX.Element> => {
 //   msalApp.handleRedirectCallback((authCallback) => {
 //     console.log(authCallback);
 //   });
@@ -95,9 +95,5 @@
 //     console.error("Unable to fetch Graph profile.");
 //   });
 
-//   if (graphProfile) {
-//     return app;
-//   }
-
-//   return <div></div>;
-// };
+    return app;
+};

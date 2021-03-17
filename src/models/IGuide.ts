@@ -1,5 +1,5 @@
 export default interface IGuide {
-    name: String,
-    icon: String,
-    guidePics: String[],
+    name: string,
+    icon: string,
+    guidePic: string,
 }
