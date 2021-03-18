@@ -2,16 +2,15 @@ import { makeStyles, Theme } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme: Theme) => ({
     allScreen: {
-        // display: 'flex',
-        // flexDirection: 'column',
-        // flexGrow: 1,
+        display: 'flex',
+        flexDirection: 'column',
+        flexGrow: 1,
         background:"#cce5ff",
     },
     guideList: {
-        // display: 'flex',
-        // flexDirection: 'row',
-        // overflowX: 'scroll', 
-        // background:"#cce5ff",
+        display: 'flex',
+        flexDirection: 'row',
+        overflowX: 'scroll', 
     },
     guideCard: {
         borderRadius: '0px',

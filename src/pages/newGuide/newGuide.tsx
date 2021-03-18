@@ -4,13 +4,15 @@ import React from 'react'
 
 const NewGuide = () => {
     return (
-        <div>
+        <div style={{ padding: 10 }}>
             <form noValidate autoComplete="off">
+                <h2>אם ברצונך לבקש מדריך חדש שאינו באתר , כתוב כאן את בקשתך </h2    >
                 <TextField
-                    style={{width:"80%"}}
+                    inputProps={{ style: { fontSize: 25 } }} // font size of input text
+                    InputLabelProps={{ style: { fontSize: 25 } }} // font size of input label
+                    style={{ width: "80%", textAlign: "right", direction: "rtl" }}
                     id="outlined-textarea"
-                    label="Multiline Placeholder"
-                    placeholder="Placeholder"
+                    placeholder="כתוב את בקשתך למדריך"
                     multiline
                     variant="outlined"
                 />
