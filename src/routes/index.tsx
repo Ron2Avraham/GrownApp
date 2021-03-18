@@ -6,6 +6,7 @@ import GuideSlide from "pages/guideSlide/GuideSlide";
 import Guide from "pages/Guide/guide";
 
 // import Footer from '../components/Footer';
+import newGuide from '../pages/newGuide/newGuide'
 
 const Routes = () => {
 

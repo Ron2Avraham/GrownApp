@@ -1,4 +1,3 @@
-import { GUIDES_DATA } from "consts/consts";
 import React, { useEffect, useState } from "react";
 import useStyles from "./styles";
 import Whatsapp from "../../assets/icons/whatsapp.png";
