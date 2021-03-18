@@ -16,7 +16,7 @@ const Routes = () => {
         minHeight: "100vh",
         flexDirection: "column",
         display:"flex",
-        backgroundColor:"#d9d9d9"
+        backgroundColor:"rgb(217, 217, 217)"
       }}>
         <Header/>
         {/* <div style={{ flex: 1 ,marginTop:20}}> */}

@@ -5,7 +5,7 @@ const useStyles = makeStyles((theme: Theme) => ({
         display: 'flex',
         flexDirection: 'column',
         flexGrow: 1,
-        background:"#cce5ff",
+        background:"rgb(217, 217, 217)",
     },
     guideList: {
         display: 'flex',
