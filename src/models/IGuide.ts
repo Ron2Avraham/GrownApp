@@ -1,5 +1,6 @@
 export default interface IGuide {
     name: string,
-    icon: string,
+    preview: string,
     guidePic: string,
+    category: string
 }

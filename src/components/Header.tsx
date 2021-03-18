@@ -24,13 +24,13 @@ function Header() {
       width: "100%",
       height: "7vh",
       flexDirection:"row",
-      background: "#B9C4C3",
+      background: "#666699",
       display: "flex",
-      // borderBottomLeftRadius:20,
-      // borderBottomRightRadius:20,
+      borderBottomLeftRadius:20,
+      borderBottomRightRadius:20,
       justifyContent:"space-between",
       padding: "10px 0",
-      boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) "
+      boxShadow: "0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 6px 0 rgba(0, 0, 0, 0.15) "
 
     }}>
       <img

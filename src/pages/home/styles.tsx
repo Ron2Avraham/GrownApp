@@ -5,7 +5,10 @@ const useStyles = makeStyles((theme: Theme) => ({
         // display: 'flex',
         // flexDirection: 'column',
         // flexGrow: 1,
-        background:"#cce5ff",
+        paddingTop:"40px",
+        flex:1,
+        // background:"#cce5ff",
+        justifyContent:"space-between"
     },
     guideList: {
         // display: 'flex',
